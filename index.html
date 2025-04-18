@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" id="main_area">
+        <div class="left_menu">
+                <img src="icons/logo.png" alt="image not found"><h2>airbnb</h2>
+            <div class="lst" id="list">
+                <ul>
+                    <li>Homes</li>
+                    <li>Experiences</li>
+                </ul>
+            </div>
+            <div class="side_menu">
+                <h4>Airbnb your home</h4>
+                <img src="icons/globe.png" alt="inf">
+            </div>
+            </div>
+            <div class="profile_menu">
+                <img src="icons/menu.png" class="menu">
+                <img src="icons/user.png" class="user">
+            </div>
+
+            <!--Next Part-->
+
+        <div class="second_lst" id="search">
+            <ul>
+                <li id="li_one">Where
+                    <input type="text" placeholder="Search Destination">
+                </li>
+                <li id="li_two">Check in
+                    <input type="date" placeholder="Add Dates">
+                </li>
+                <li id="li_three">Check Out
+                    <input type="date" placeholder="Add Dates">
+                </li>
+                <li id="li_four">Who
+                    <input type="text" placeholder="Add Guests">
+                </li>
+            </ul>
+            <button><img src="icons/search.png"></button>
+        </div>
+    </div>
+    <hr>
+    <!--another menu.😭-->
+    <nav>
+        <div class="nxt_nav" id="slides">
+            <button><img src="icons/left_slide.png" alt="" class="lftNxt" id="lft_nxt" onclick="scrollLeft"></button>
+            <ul>
+                <li class="li_names"><img src="icons/islands.png" alt="">Islands</li>
+                <li class="li_names"><img src="icons/icons.png" alt="">Icons</li>
+                <li class="li_names"><img src="icons/pools.png" alt="">Amazing Pools</li>
+                <li class="li_names"><img src="icons/top_of_the_world.png" alt="">Top of the world</li>
+                <li class="li_names"><img src="icons/mansion.png" alt="">Mansion</li>
+                <li class="li_names"><img src="icons/surfing.png" alt="">Surfing</li>
+                <li class="li_names"><img src="icons/farms.png" alt="">Farms</li>
+            </ul>
+            <button class="nextBtn" id="nxtBtn" onclick="scrollRight()"><img src="icons/next.png" alt="" class="next"></button>
+            <h2><img src="icons/filter.png" alt="">Filter</h2>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
